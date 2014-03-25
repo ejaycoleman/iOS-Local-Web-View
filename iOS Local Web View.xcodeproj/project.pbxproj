@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C5C20C018E1FE9400F8E394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20BF18E1FE9400F8E394 /* Foundation.framework */; };
+		3C5C20C218E1FE9400F8E394 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20C118E1FE9400F8E394 /* CoreGraphics.framework */; };
+		3C5C20C418E1FE9400F8E394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20C318E1FE9400F8E394 /* UIKit.framework */; };
+		3C5C20CA18E1FE9400F8E394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20C818E1FE9400F8E394 /* InfoPlist.strings */; };
+		3C5C20CC18E1FE9400F8E394 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C20CB18E1FE9400F8E394 /* main.m */; };
+		3C5C20D018E1FE9400F8E394 /* ECAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C20CF18E1FE9400F8E394 /* ECAppDelegate.m */; };
+		3C5C20D318E1FE9400F8E394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20D118E1FE9400F8E394 /* Main.storyboard */; };
+		3C5C20D618E1FE9400F8E394 /* ECViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C20D518E1FE9400F8E394 /* ECViewController.m */; };
+		3C5C20D818E1FE9400F8E394 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20D718E1FE9400F8E394 /* Images.xcassets */; };
+		3C5C20DF18E1FE9500F8E394 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20DE18E1FE9500F8E394 /* XCTest.framework */; };
+		3C5C20E018E1FE9500F8E394 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20BF18E1FE9400F8E394 /* Foundation.framework */; };
+		3C5C20E118E1FE9500F8E394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20C318E1FE9400F8E394 /* UIKit.framework */; };
+		3C5C20E918E1FE9500F8E394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20E718E1FE9500F8E394 /* InfoPlist.strings */; };
+		3C5C20EB18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C20EA18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C5C20E218E1FE9500F8E394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C5C20B418E1FE9400F8E394 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C5C20BB18E1FE9400F8E394;
+			remoteInfo = "iOS Local Web View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C5C20BC18E1FE9400F8E394 /* iOS Local Web View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Local Web View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5C20BF18E1FE9400F8E394 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C5C20C118E1FE9400F8E394 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C5C20C318E1FE9400F8E394 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C5C20C718E1FE9400F8E394 /* iOS Local Web View-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Local Web View-Info.plist"; sourceTree = "<group>"; };
+		3C5C20C918E1FE9400F8E394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C20CB18E1FE9400F8E394 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C5C20CD18E1FE9400F8E394 /* iOS Local Web View-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS Local Web View-Prefix.pch"; sourceTree = "<group>"; };
+		3C5C20CE18E1FE9400F8E394 /* ECAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECAppDelegate.h; sourceTree = "<group>"; };
+		3C5C20CF18E1FE9400F8E394 /* ECAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECAppDelegate.m; sourceTree = "<group>"; };
+		3C5C20D218E1FE9400F8E394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C5C20D418E1FE9400F8E394 /* ECViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECViewController.h; sourceTree = "<group>"; };
+		3C5C20D518E1FE9400F8E394 /* ECViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ECViewController.m; sourceTree = "<group>"; };
+		3C5C20D718E1FE9400F8E394 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C5C20DD18E1FE9500F8E394 /* iOS Local Web ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Local Web ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C5C20DE18E1FE9500F8E394 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C5C20E618E1FE9500F8E394 /* iOS Local Web ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Local Web ViewTests-Info.plist"; sourceTree = "<group>"; };
+		3C5C20E818E1FE9500F8E394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C5C20EA18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Local_Web_ViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C5C20B918E1FE9400F8E394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20C218E1FE9400F8E394 /* CoreGraphics.framework in Frameworks */,
+				3C5C20C418E1FE9400F8E394 /* UIKit.framework in Frameworks */,
+				3C5C20C018E1FE9400F8E394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C20DA18E1FE9500F8E394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20DF18E1FE9500F8E394 /* XCTest.framework in Frameworks */,
+				3C5C20E118E1FE9500F8E394 /* UIKit.framework in Frameworks */,
+				3C5C20E018E1FE9500F8E394 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C5C20B318E1FE9400F8E394 = {
+			isa = PBXGroup;
+			children = (
+				3C5C20C518E1FE9400F8E394 /* iOS Local Web View */,
+				3C5C20E418E1FE9500F8E394 /* iOS Local Web ViewTests */,
+				3C5C20BE18E1FE9400F8E394 /* Frameworks */,
+				3C5C20BD18E1FE9400F8E394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C5C20BD18E1FE9400F8E394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20BC18E1FE9400F8E394 /* iOS Local Web View.app */,
+				3C5C20DD18E1FE9500F8E394 /* iOS Local Web ViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C5C20BE18E1FE9400F8E394 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20BF18E1FE9400F8E394 /* Foundation.framework */,
+				3C5C20C118E1FE9400F8E394 /* CoreGraphics.framework */,
+				3C5C20C318E1FE9400F8E394 /* UIKit.framework */,
+				3C5C20DE18E1FE9500F8E394 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C5C20C518E1FE9400F8E394 /* iOS Local Web View */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20CE18E1FE9400F8E394 /* ECAppDelegate.h */,
+				3C5C20CF18E1FE9400F8E394 /* ECAppDelegate.m */,
+				3C5C20D118E1FE9400F8E394 /* Main.storyboard */,
+				3C5C20D418E1FE9400F8E394 /* ECViewController.h */,
+				3C5C20D518E1FE9400F8E394 /* ECViewController.m */,
+				3C5C20D718E1FE9400F8E394 /* Images.xcassets */,
+				3C5C20C618E1FE9400F8E394 /* Supporting Files */,
+			);
+			path = "iOS Local Web View";
+			sourceTree = "<group>";
+		};
+		3C5C20C618E1FE9400F8E394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20C718E1FE9400F8E394 /* iOS Local Web View-Info.plist */,
+				3C5C20C818E1FE9400F8E394 /* InfoPlist.strings */,
+				3C5C20CB18E1FE9400F8E394 /* main.m */,
+				3C5C20CD18E1FE9400F8E394 /* iOS Local Web View-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C5C20E418E1FE9500F8E394 /* iOS Local Web ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20EA18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m */,
+				3C5C20E518E1FE9500F8E394 /* Supporting Files */,
+			);
+			path = "iOS Local Web ViewTests";
+			sourceTree = "<group>";
+		};
+		3C5C20E518E1FE9500F8E394 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C5C20E618E1FE9500F8E394 /* iOS Local Web ViewTests-Info.plist */,
+				3C5C20E718E1FE9500F8E394 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C5C20BB18E1FE9400F8E394 /* iOS Local Web View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C20EE18E1FE9500F8E394 /* Build configuration list for PBXNativeTarget "iOS Local Web View" */;
+			buildPhases = (
+				3C5C20B818E1FE9400F8E394 /* Sources */,
+				3C5C20B918E1FE9400F8E394 /* Frameworks */,
+				3C5C20BA18E1FE9400F8E394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Local Web View";
+			productName = "iOS Local Web View";
+			productReference = 3C5C20BC18E1FE9400F8E394 /* iOS Local Web View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C5C20DC18E1FE9500F8E394 /* iOS Local Web ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C5C20F118E1FE9500F8E394 /* Build configuration list for PBXNativeTarget "iOS Local Web ViewTests" */;
+			buildPhases = (
+				3C5C20D918E1FE9500F8E394 /* Sources */,
+				3C5C20DA18E1FE9500F8E394 /* Frameworks */,
+				3C5C20DB18E1FE9500F8E394 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C5C20E318E1FE9500F8E394 /* PBXTargetDependency */,
+			);
+			name = "iOS Local Web ViewTests";
+			productName = "iOS Local Web ViewTests";
+			productReference = 3C5C20DD18E1FE9500F8E394 /* iOS Local Web ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C5C20B418E1FE9400F8E394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EC;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Elliott Coleman";
+				TargetAttributes = {
+					3C5C20DC18E1FE9500F8E394 = {
+						TestTargetID = 3C5C20BB18E1FE9400F8E394;
+					};
+				};
+			};
+			buildConfigurationList = 3C5C20B718E1FE9400F8E394 /* Build configuration list for PBXProject "iOS Local Web View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C5C20B318E1FE9400F8E394;
+			productRefGroup = 3C5C20BD18E1FE9400F8E394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C5C20BB18E1FE9400F8E394 /* iOS Local Web View */,
+				3C5C20DC18E1FE9500F8E394 /* iOS Local Web ViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C5C20BA18E1FE9400F8E394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20D818E1FE9400F8E394 /* Images.xcassets in Resources */,
+				3C5C20CA18E1FE9400F8E394 /* InfoPlist.strings in Resources */,
+				3C5C20D318E1FE9400F8E394 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C20DB18E1FE9500F8E394 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20E918E1FE9500F8E394 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C5C20B818E1FE9400F8E394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20D618E1FE9400F8E394 /* ECViewController.m in Sources */,
+				3C5C20D018E1FE9400F8E394 /* ECAppDelegate.m in Sources */,
+				3C5C20CC18E1FE9400F8E394 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C5C20D918E1FE9500F8E394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C5C20EB18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C5C20E318E1FE9500F8E394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C5C20BB18E1FE9400F8E394 /* iOS Local Web View */;
+			targetProxy = 3C5C20E218E1FE9500F8E394 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C5C20C818E1FE9400F8E394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C20C918E1FE9400F8E394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C5C20D118E1FE9400F8E394 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C20D218E1FE9400F8E394 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C5C20E718E1FE9500F8E394 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C5C20E818E1FE9500F8E394 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C5C20EC18E1FE9500F8E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C5C20ED18E1FE9500F8E394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C5C20EF18E1FE9500F8E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Local Web View/iOS Local Web View-Prefix.pch";
+				INFOPLIST_FILE = "iOS Local Web View/iOS Local Web View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C5C20F018E1FE9500F8E394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Local Web View/iOS Local Web View-Prefix.pch";
+				INFOPLIST_FILE = "iOS Local Web View/iOS Local Web View-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C5C20F218E1FE9500F8E394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Local Web View.app/iOS Local Web View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Local Web View/iOS Local Web View-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS Local Web ViewTests/iOS Local Web ViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C5C20F318E1FE9500F8E394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS Local Web View.app/iOS Local Web View";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS Local Web View/iOS Local Web View-Prefix.pch";
+				INFOPLIST_FILE = "iOS Local Web ViewTests/iOS Local Web ViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C5C20B718E1FE9400F8E394 /* Build configuration list for PBXProject "iOS Local Web View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C20EC18E1FE9500F8E394 /* Debug */,
+				3C5C20ED18E1FE9500F8E394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C5C20EE18E1FE9500F8E394 /* Build configuration list for PBXNativeTarget "iOS Local Web View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C20EF18E1FE9500F8E394 /* Debug */,
+				3C5C20F018E1FE9500F8E394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C5C20F118E1FE9500F8E394 /* Build configuration list for PBXNativeTarget "iOS Local Web ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C5C20F218E1FE9500F8E394 /* Debug */,
+				3C5C20F318E1FE9500F8E394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C5C20B418E1FE9400F8E394 /* Project object */;
+}
