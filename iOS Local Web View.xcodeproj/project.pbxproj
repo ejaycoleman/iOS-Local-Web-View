@@ -21,6 +21,8 @@
 		3C5C20E118E1FE9500F8E394 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5C20C318E1FE9400F8E394 /* UIKit.framework */; };
 		3C5C20E918E1FE9500F8E394 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20E718E1FE9500F8E394 /* InfoPlist.strings */; };
 		3C5C20EB18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5C20EA18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m */; };
+		3C5C20F518E200C300F8E394 /* site files in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20F418E200C300F8E394 /* site files */; };
+		3C5C20F718E200E300F8E394 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3C5C20F618E200E300F8E394 /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		3C5C20E618E1FE9500F8E394 /* iOS Local Web ViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS Local Web ViewTests-Info.plist"; sourceTree = "<group>"; };
 		3C5C20E818E1FE9500F8E394 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C5C20EA18E1FE9500F8E394 /* iOS_Local_Web_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Local_Web_ViewTests.m; sourceTree = "<group>"; };
+		3C5C20F418E200C300F8E394 /* site files */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "site files"; path = "iOS Local Web View/site files"; sourceTree = "<group>"; };
+		3C5C20F618E200E300F8E394 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = "iOS Local Web View/site files/index.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,8 @@
 		3C5C20B318E1FE9400F8E394 = {
 			isa = PBXGroup;
 			children = (
+				3C5C20F618E200E300F8E394 /* index.html */,
+				3C5C20F418E200C300F8E394 /* site files */,
 				3C5C20C518E1FE9400F8E394 /* iOS Local Web View */,
 				3C5C20E418E1FE9500F8E394 /* iOS Local Web ViewTests */,
 				3C5C20BE18E1FE9400F8E394 /* Frameworks */,
@@ -229,8 +235,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5C20F718E200E300F8E394 /* index.html in Resources */,
 				3C5C20D818E1FE9400F8E394 /* Images.xcassets in Resources */,
 				3C5C20CA18E1FE9400F8E394 /* InfoPlist.strings in Resources */,
+				3C5C20F518E200C300F8E394 /* site files in Resources */,
 				3C5C20D318E1FE9400F8E394 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +465,7 @@
 				3C5C20F018E1FE9500F8E394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C5C20F118E1FE9500F8E394 /* Build configuration list for PBXNativeTarget "iOS Local Web ViewTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +474,7 @@
 				3C5C20F318E1FE9500F8E394 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

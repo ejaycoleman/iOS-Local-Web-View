@@ -10,4 +10,5 @@
 
 @interface ECViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UIWebView *browser;
 @end

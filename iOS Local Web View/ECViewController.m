@@ -16,8 +16,9 @@
 
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	_browser.delegate = self;
+    
+    [_browser loadRequest:[NSURLRequest requestWithURL:[NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"site files/index" ofType:@"html"]isDirectory:NO]]];
 }
 
 - (void)didReceiveMemoryWarning
